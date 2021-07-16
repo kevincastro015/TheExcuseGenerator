@@ -1,8 +1,8 @@
 
 function randomText() {
     document.querySelector("generateExcuse").addEventListener("click",() => {
-    document.querySelector("excuse").innerHTML = generateExcuse();
-}
+    document.querySelector("excuse").innerHTML = generateExcuse()
+})}
 
 let generateExcuse = () => {
     let who = ['The dog','My grandma','His turtle','My bird'];
@@ -17,5 +17,6 @@ let generateExcuse = () => {
 
     return who[whoIndx] + '' + action[actionIndx] + '' + what[whatIndx] + '' + when[whenIndx];
 }
+// randomText()
 let generateExcuse = randomText()
 console.log(randomExcuse)
